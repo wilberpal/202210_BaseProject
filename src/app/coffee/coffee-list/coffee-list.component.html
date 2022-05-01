@@ -1,0 +1,36 @@
+<h3>El aroma mágico</h3>
+<hr>
+<div style="width: 100%">
+  <img class="banner" src="assets/images/cafe_banner.jpg" />
+</div>
+<hr>
+<div style="width: 50%">
+  <table class="table">
+    <thead class="table-dark">
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Nombre</th>
+        <th scope="col">Tipo</th>
+        <th scope="col">Región</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr id="records" *ngFor="let coffee of coffees">
+        <th scope="row">{{ coffee.id }}</th>
+        <td>{{ coffee.nombre }}</td>
+        <td>{{ coffee.tipo }}</td>
+        <td>{{ coffee.region }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<br>
+<p>
+  Total café de origen: {{cOrigen}}<br>
+  Total café blend: {{cBlend}}
+</p>
+
+<br><br>
+<div class="center">
+  Contact us: +57 3102105253 - info@elaromamagico.com - @elaromamagico
+</div>

@@ -1,7 +1,7 @@
 <testExecutions version="1">
-  <file path="src/app/app.component.spec.ts">
-    <testCase name="AppComponent should have as title 'base-project'" duration="118"/>
-    <testCase name="AppComponent should create the app" duration="14"/>
-    <testCase name="AppComponent should render title" duration="13"/>
+  <file path="src/app/coffee/coffee-list/coffee-list.component.spec.ts">
+    <testCase name="CoffeeComponent should create" duration="71"/>
+    <testCase name="CoffeeComponent should have an thead element " duration="15"/>
+    <testCase name="CoffeeComponent should have 3 coffees " duration="15"/>
   </file>
 </testExecutions>
